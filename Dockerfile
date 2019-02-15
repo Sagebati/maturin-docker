@@ -1,3 +1,3 @@
 FROM liuchong/rustup:nightly
-RUN apt install python-pip -y
-RUN pip install pyo3-pack
+RUN apt-get update && apt-get install python3-pip -y
+RUN pip3 install pyo3-pack
