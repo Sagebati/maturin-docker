@@ -1,4 +1,6 @@
-FROM python
+FROM python:3.5
+
+WORKDIR /root
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \

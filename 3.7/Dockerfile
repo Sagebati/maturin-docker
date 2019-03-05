@@ -1,5 +1,7 @@
 FROM python:3.7
 
+WORKDIR /root
+
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
     ca-certificates curl file \
