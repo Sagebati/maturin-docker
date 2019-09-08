@@ -1,4 +1,4 @@
-pyo3-pack-docker
+maturin-docker
 ==
 
 ### **Image to publish and build with pyo3-pack with CI services like gitlab, multiple versions of python supported with tags.**
@@ -20,7 +20,7 @@ build:
 publish:
   stage: publish
   script:
-    - pyo3-pack publish -u user -p $password
+    - maturin publish -u user -p $password
 ```
 
 
