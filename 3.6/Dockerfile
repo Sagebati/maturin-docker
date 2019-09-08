@@ -26,4 +26,4 @@ RUN curl https://sh.rustup.rs -sSf | \
 
 ENV PATH=/root/.cargo/bin:$PATH
 
-RUN pip3 install pyo3-pack
+RUN pip3 install maturin
